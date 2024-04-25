@@ -1,16 +1,15 @@
 # Domain-SSL-For-Local
 Setting a domain and SSL on the local XAMPP server 
 
-[toc]
 ## إنشاء `Domain` و تفعيل شهادة `SSL` 
 - لتتمكن من البرمجة بشكل صحيح و وتجربة ماتريد بدون قيود تمنعك من إختبار عملك وفحصة قبل رفعه ونشره على الانترنت يجب عليك تفعيل الخدمات المتوفرة على الاستضافة في سيرفر محلي يمكنك عمل ذلك بالخطوات التالية: 
 1. حمل الملفات التالية:
-   - ----------------------------------------------------------------------------------------------- [cert-template.conf](https://github.com/OsamaDev9/Domain-SSL-For-Local/blob/main/cert-template.conf)
-   - ------------------------------------------------------------------------------------------------------------- [make-cert.bat](https://github.com/OsamaDev9/Domain-SSL-For-Local/blob/main/make-cert.bat)
+   - [cert-template.conf](https://github.com/OsamaDev9/Domain-SSL-For-Local/blob/main/cert-template.conf)
+   - [make-cert.bat](https://github.com/OsamaDev9/Domain-SSL-For-Local/blob/main/make-cert.bat)
 2. ثم أنشئ مجلد بإسم `crt` في المسار : `xampp\apache\crt` ثم قم بإضافة الملفين الذي قمت بتحميلهما الى هذا المجلد .
 ستكون الملفات بهذا الشكل : 
 
-```ps
+```pss
 📂xampp\apache\crt
  ┗📜cert-template.conf
  ┗📜make-cert.bat
