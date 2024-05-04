@@ -1,8 +1,8 @@
 # Domain-SSL-For-Local
 Setting a domain and SSL on the local XAMPP server 
 
-## إنشاء `Domain` و تفعيل شهادة `SSL` 
-- لتتمكن من البرمجة بشكل صحيح و وتجربة ماتريد بدون قيود تمنعك من إختبار عملك وفحصة قبل رفعه ونشره على الانترنت يجب عليك تفعيل الخدمات المتوفرة على الاستضافة في سيرفر محلي يمكنك عمل ذلك بالخطوات التالية: 
+## إنشاء `Domain` و تفعيل `SSL` على السيرفر المحلي Xampp 
+- لتتمكن من البرمجة بشكل صحيح و تجربة ماتريد بدون قيود تمنعك من إختبار عملك وفحصة قبل رفعه ونشره على الانترنت يجب عليك تفعيل الخدمات المتوفرة على الاستضافة في سيرفر محلي يمكنك عمل ذلك بالخطوات التالية: 
 1. حمل الملفات التالية:
    - [cert-template.conf](https://github.com/OsamaDev9/Domain-SSL-For-Local/blob/main/cert-template.conf)
    - [make-cert.bat](https://github.com/OsamaDev9/Domain-SSL-For-Local/blob/main/make-cert.bat)
@@ -17,16 +17,6 @@ Setting a domain and SSL on the local XAMPP server
 3. قم بتشغيل ملف `make-cert.bat` كمسؤول واتبع التعليمات التالية :
     - يمكنك كتابة النطاق الذي ترغب به وتخطي باقي البيانات بالضغط على `Enter` 
 _________
-- هذه هي البيانات التي قمت بإدخالها في هذا المثال: 
-- 1. النطاق الذي تريده كرابط لموقعك: Osama.net
-- 2. إختصار دولتك : YE
-- 3. الدولة: Yemen
-- 4. المدينة : Sana'a
-- 5. الشركة : OsYE
-- 6. السيرفر : Osama.net
-- 7. بريد : admin@osama.net
- تلخيص للتالي :-
-
 
 ```
 Enter Domain: Osama.net
@@ -48,7 +38,17 @@ The certificate was provided.
 
 Press any key to continue . . .
 ```
+- هذه هي البيانات التي قمت بإدخالها في المثال اعلاه: 
+- 1. النطاق الذي تريده كرابط لموقعك: Osama.net
+- 2. إختصار دولتك : YE
+- 3. الدولة: Yemen
+- 4. المدينة : Sana'a
+- 5. الشركة : OsYE
+- 6. السيرفر : Osama.net
+- 7. بريد : admin@osama.net
+
 _________
+
 اغلق شاشة `cmd` 
 
 لاحظ انه تم إنشاء مجلد بإسم النطاق الذي اخترته `Osama.net` و يحتوي على ملفين 
